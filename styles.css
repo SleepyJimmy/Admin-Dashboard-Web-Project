@@ -1,0 +1,49 @@
+:root {
+    box-sizing: border-box;
+}
+
+
+body {
+    display: grid;
+    grid-template-columns: 15% 80%;
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 4px;
+    border: 1px solid black;
+    padding-top: 10px;
+}
+
+.icons-container > img {
+    height: 18px;
+    margin: 10px;
+}
+
+.words-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.words-container > p {
+    margin: 10px;
+    font-size: 1em;
+}
+
+img:first-child, p:first-child{
+    height: 37px;
+    font-size: 2em;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section {
+    border: 1px solid black;
+}
