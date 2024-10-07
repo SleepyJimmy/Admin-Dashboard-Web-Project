@@ -1,24 +1,27 @@
 :root {
     box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
 }
 
 
 body {
     display: grid;
-    grid-template-columns: 15% 80%;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100vh;
 }
 
 .nav-bar {
     display: grid;
     grid-template-columns: 20% 80%;
     gap: 4px;
-    border: 1px solid black;
     padding-top: 10px;
+    background-color: dodgerblue;
 }
 
 .icons-container > img {
-    height: 18px;
+    height: 21px;
     margin: 10px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(300deg) brightness(100%);
 }
 
 .words-container {
@@ -28,20 +31,28 @@ body {
 }
 
 .words-container > p {
+    font-weight: bold;
     margin: 10px;
-    font-size: 1em;
+    font-size: 18px;
+    color: white;
 }
 
 img:first-child, p:first-child{
     height: 37px;
     font-size: 2em;
+    margin-bottom: 50px;
+}
+
+
+img:nth-child(7), p:nth-child(7) {
+    margin-bottom: 50px;
 }
 
 .icons-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding-left: 10px;
 }
 
 .main-section {
