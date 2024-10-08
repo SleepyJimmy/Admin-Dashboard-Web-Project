@@ -3,6 +3,9 @@
     font-family: 'roboto', sans-serif;
 }
 
+p {
+    margin: 0;
+}
 
 body {
     display: grid;
@@ -60,12 +63,31 @@ img:nth-child(7), p:nth-child(7) {
     border: 1px solid black;
 }
 
-.top-header svg {
+.header-top {
+    display: flex;
+    padding-left: 50px;
+    justify-content: space-between;
+}
+
+
+.search-input {
+    border-radius: 50px;
+    width: 500px;
+}
+
+.left-icon-item {
+    display: flex;
+}
+
+
+.header-top svg {
     width: 20px;
     height: 20px;
 }
 
 .cartoon-cat {
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
 }
+
