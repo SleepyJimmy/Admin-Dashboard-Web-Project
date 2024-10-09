@@ -66,24 +66,45 @@ img:nth-child(7), p:nth-child(7) {
 .header-top {
     display: flex;
     padding-left: 50px;
+    height: 50px;
     justify-content: space-between;
+    padding-top: 20px;
+    min-width: 350px;
 }
 
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-top svg {
+    height: 15%;
+    min-height: 25px;
+    min-width: 25px;
+}
 
 .search-input {
     border-radius: 50px;
-    width: 500px;
+    width: 100%;
+    min-height: 25px;
+    min-width: 100px;
+    height: 15%;
+    flex: 1;
+    margin-left: 10px;
 }
 
-.left-icon-item {
+
+.right-icon-container {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-left: 30px;
 }
 
-
-.header-top svg {
-    width: 20px;
-    height: 20px;
-}
 
 .cartoon-cat {
     height: 40px;
