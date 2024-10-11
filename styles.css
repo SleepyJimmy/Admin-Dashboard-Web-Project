@@ -112,3 +112,53 @@ img:nth-child(7), p:nth-child(7) {
     border-radius: 50%;
 }
 
+
+.header-bot {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 30px;
+    align-items: center;
+}
+
+
+.container-left-bot {
+    display: flex;
+    gap: 20px;
+    height: 70px;
+}
+
+.container-left-bot img {
+    height: 60px;
+    width: 60px;
+}
+
+.container-left-bot p {
+    margin: 0;
+    font-size: 16px;
+    height: auto;
+}
+
+.container-left-bot h2 {
+    margin: 0;
+}
+
+.container-right-bot {
+    display: flex;
+    gap: 50px;
+    margin-right: 10%;
+}
+
+button { 
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: #0ea5e9;
+    color: white;
+    font-weight: bold;
+}
+
+.dashboard {
+    height: 100vh;
+}
