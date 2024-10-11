@@ -1,6 +1,7 @@
 :root {
     box-sizing: border-box;
     font-family: 'roboto', sans-serif;
+    --background: rgb(230, 230, 230);
 }
 
 p {
@@ -12,6 +13,8 @@ body {
     grid-template-columns: 20% 80%;
     grid-template-rows: 100vh;
     margin: 0;
+    background-color: var(--background);
+
 }
 
 .nav-bar {
@@ -94,6 +97,8 @@ img:nth-child(7), p:nth-child(7) {
     height: 15%;
     flex: 1;
     margin-left: 10px;
+    background: var(--background);
+    border: none;
 }
 
 
@@ -162,7 +167,6 @@ button {
 .dashboard {
     height: 80%;
     display: flex;
-
 }
 
 .left-dashboard-container {
