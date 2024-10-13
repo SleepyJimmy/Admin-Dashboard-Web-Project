@@ -196,7 +196,7 @@ button {
     border: 1px solid black;
     position: relative;
     background-color: white;
-    min-width: 250px;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
 }
@@ -258,11 +258,26 @@ h2:first-child {
     padding-top: 30px;
 }
 
-.right-dashboard-container div {
+.right-dashboard-container > div {
     border: 1px solid black;
     height: 100%;
     width: 100%;
     border-radius: 10px;
     min-width: 300px;
     background-color: white;
+}
+
+h3 {
+    margin: 0;
+}
+
+.right-box1 > div {
+    padding: 5% 10% 5% 10%;
+    font-size: 12px;
+}
+
+hr {
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
