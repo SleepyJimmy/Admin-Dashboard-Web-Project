@@ -1,11 +1,14 @@
 # Admin-Dashboard-Web-Project
-This project was done to practice intermediate HTML and CSS skills, more specifically involving grids. This was part of The Odin Project's bootcamp.
+This project was done to practice intermediate HTML and CSS skills, more specifically involving grids. This was part of <strong>The Odin Project's</strong> bootcamp.
 
-## Purpose
-The goal of this project was to imitate to the best of my abilities a given website. 
+## Project Overview
+The objective of this project was to replicate a given website layout as closely as possible, applying best practices in HTML structure and CSS styling to achieve a professional and responsive dashboard interface.
 
-### Given website
-The website that was given by The Odin Project looked like this:
+
+### Reference Design
+The design provided by The Odin Project served as the foundation for this implementation. Below is a preview of the original design:
 <img src="images/dashboard-project.png">
 
-Take a look at my site <a href="https://sleepyjimmy.github.io/Admin-Dashboard-Web-Project/">here</a>.
+### Live Demo
+You can view the live version of my implementation <a href="https://sleepyjimmy.github.io/Admin-Dashboard-Web-Project/">here</a>.
+
